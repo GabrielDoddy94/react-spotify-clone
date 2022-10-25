@@ -122,7 +122,7 @@ const TopPlay = () => {
               style={{ width: "25%", height: "auto" }}
               className="shadow-lg rounded-full animate-slideright"
             >
-              <Link to={`artistis/${song?.artists[0].adamid}`}>
+              <Link to={`artists/${song?.artists[0].adamid}`}>
                 <img
                   src={song?.images.background}
                   alt="name"
